@@ -1,0 +1,12 @@
+{
+  "extends": "./.quasar/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@adminApp/*": ["src/apps/admin/*"],
+      "@clientApp/*": ["src/apps/client/*"],
+      "@shared/*": ["src/shared/*"]
+    }
+  }
+}
